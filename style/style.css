@@ -144,6 +144,7 @@ main section .main p {
     background-color: #023586;
     color: #fff;
     line-height: 1.6;
+    font-size: 0.75rem;
 }
 /* 상담신청 페이지 */
 main .consulting_wrap {
