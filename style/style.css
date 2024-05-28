@@ -143,7 +143,7 @@ main section .main p {
 }
 /* 상담신청 페이지 */
 main .consulting_wrap {
-    margin: 56px 0;
+    margin-bottom: 56px;
     padding: 0 16px;
 }
 main .consulting_wrap .consulting_content01 {
