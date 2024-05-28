@@ -147,7 +147,7 @@ main .consulting_wrap {
     padding: 0 16px;
 }
 main .consulting_wrap .consulting_content01 {
-    padding-bottom: 20px;
+    padding: 56px 0;
     border-bottom: 3px solid #023586;
 }
 main .consulting_wrap .consulting_content01 h2 {line-height: 1.4}
