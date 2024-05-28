@@ -129,7 +129,7 @@ main section .main p {
     border-radius: 50%;
     color: #023586;
     background-color: #E8E8E8;
-    top: 40%;
+    top: 38%;
     left: 50%;
     transform: translateX(-50%);
 }
