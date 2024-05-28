@@ -93,11 +93,11 @@ main section .main p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    position: relative;
 }
 .container .content03 ul li {
     width: calc(100% / 2 - 20px);
     margin-bottom: 20px;
+    position: relative;
 }
 .container .content03 ul li:last-child {margin-bottom: 10px;}
 .container .content03 ul li .top {
@@ -121,9 +121,12 @@ main section .main p {
     border-radius: 50%;
     color: #023586;
     background-color: #E8E8E8;
+    top: 42%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .container .content03 ul li .btm_txt {
-    padding-top: 8px;
+    padding-top: 10px;
     height: 100px;
     text-align: center;
     border-radius: 0 0 10px 10px;
