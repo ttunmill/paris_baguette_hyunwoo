@@ -39,7 +39,7 @@ main section {
     margin-bottom: 100px;
     height: 932px;
     text-align: center;
-    background-image: url("../style/main_bg.png");
+    background-image: url("../images/main_bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
