@@ -129,12 +129,12 @@ main section .main p {
     border-radius: 50%;
     color: #023586;
     background-color: #E8E8E8;
-    top: 42%;
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
 }
 .container .content03 ul li .btm_txt {
-    padding-top: 10px;
+    padding: 10px;
     height: 100px;
     text-align: center;
     border-radius: 0 0 10px 10px;
