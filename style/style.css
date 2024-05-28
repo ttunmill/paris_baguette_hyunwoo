@@ -80,7 +80,10 @@ main section .main p {
     margin-bottom: 10px;
     text-align: center;
 }
-.container .content01 .img img {border-radius: 10px;}
+.container .content01 .img img {
+    width: 100%;
+    border-radius: 10px;
+}
 .container .content02 {margin-bottom: 100px;}
 .container .content02 .bread_list {
     display: flex;
