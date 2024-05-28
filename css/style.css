@@ -1,0 +1,196 @@
+/* E6D9B7 023586*/
+/* 공통 */
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: -0.2px;
+}
+body {
+    position: relative;
+    background-color: #E6D9B7;
+}
+.emphasis_txt {
+    margin-bottom: 10px;
+    color: #023586;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.explanation_txt {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+.txt {line-height: 1.6;}
+/* 네비게이션 */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    height: 56px;
+    background-color: #023586;
+}
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    height: 932px;
+    text-align: center;
+    background-image: url("../images/main_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main section .main p {
+    padding-bottom: 10px;
+    font-size: 1.75rem;
+    color: #023586;
+    font-weight: 700
+}
+.btm_gnb {
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    background-color: #fff;
+}
+.btm_gnb a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    width: calc(100% / 4);
+    color: #000;
+}
+/* 콘텐츠 시작 */
+.container {padding: 0 16px;}
+.container .content01 {margin-bottom: 100px;}
+.container .content01 .img {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container .content01 .img img {border-radius: 10px;}
+.container .content02 {margin-bottom: 100px;}
+.container .content02 .bread_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container .content02 .bread_list li {width: calc(100% / 2);}
+.container .content02 .bread_list li:last-child {
+    padding-top: 30px;
+    width: 100%;
+}
+.container .content03 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.container .content03 ul li {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 20px;
+}
+.container .content03 ul li:last-child {margin-bottom: 10px;}
+.container .content03 ul li .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+.container .content03 ul li .top img {
+    width: 56px;
+    height: 56px;
+}
+.container .content03 ul li .number {
+    position: absolute;
+    text-align: center;
+    width: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    color: #023586;
+    background-color: #E8E8E8;
+}
+.container .content03 ul li .btm_txt {
+    padding-top: 8px;
+    height: 100px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    background-color: #023586;
+    color: #fff;
+    line-height: 1.6;
+}
+/* 상담신청 페이지 */
+main .consulting_wrap {
+    margin: 56px 0;
+    padding: 0 16px;
+}
+main .consulting_wrap .consulting_content01 {
+    padding-bottom: 20px;
+    border-bottom: 3px solid #023586;
+}
+main .consulting_wrap .consulting_content01 h2 {line-height: 1.4}
+main .consulting_wrap .consulting_content01 p {font-size: 0.75rem;}
+/* main .consulting_wrap #consulting_form {margin-top: 10px;} */
+main .consulting_wrap #consulting_form .consulting_list {
+
+}
+main .consulting_wrap #consulting_form .consulting_list > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-bottom: 1px solid #023586;
+}
+main .consulting_wrap #consulting_form .consulting_list li > p {
+    width: 100px;
+}
+main .consulting_wrap #consulting_form .consulting_list li > input {
+    width: calc(100% - 132px);
+}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div {
+    display: flex;
+    width: calc(100% - 132px);
+}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div input,
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div p,
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div select {
+    width: calc(100% / 3);
+}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div p {text-align: center;}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(5) ul {
+    width: calc(100% - 132px);
+    display: flex;
+    flex-wrap: wrap;
+}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(5) ul li {
+    width: calc(100% / 2);
+    margin-bottom: 10px;
+}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(5) ul li input{width: 20px;}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(5) ul li:last-child {margin: 0;}
+main .consulting_wrap #consulting_form .consulting_list li:last-child textarea {
+    width: calc(100% - 132px);
+}
+main .consulting_wrap #consulting_form .sub_btn {
+    margin: 50px 0;
+    width: 100%;
+    line-height: 43px;
+    border-radius: 10px;
+    border: none;
+    background-color: #023586;
+    color: #fff;
+    font-size: 1rem
+}

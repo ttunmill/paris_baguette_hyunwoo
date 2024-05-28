@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상담신청 │ 파리바게뜨</title>
+    <meta name="keywords" content="파리바게뜨, PARIS BAGUETTE,파리크라상,빵집, 빵">
+    <meta name="description" content="빵을 사랑하는 창업자님을 모십니다. 파리바게트는 남여노소 모두가 사랑하는 빵입니다. 저희와 함께하실 창업자님 어서오세요.">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    <div class="btm_gnb">
+        <a href="#">
+            <p><img src="./images/online_store.png" alt=""></p>
+            <p>매장소개</p>
+        </a>
+        <a href="#">
+            <p><img src="./images/group_task.png" alt=""></p>
+            <p>상담신청</p>
+        </a>
+        <a href="#">
+            <p><img src="./images/holding_box.png" alt=""></p>
+            <p>배송서비스</p>
+        </a>
+        <a href="#">
+            <p><img src="./images/commercial.png" alt=""></p>
+            <p>프로모션</p>
+        </a>
+    </div>
+    <header>
+        <nav>
+            <a href="#"><img src="./images/hamburger_menu.png" alt="메뉴"></a>
+            <h1><a href="#"><img src="./images/logo.png" alt="PARIS BAGUETTE"></a></h1>
+            <a href="#"><img src="./images/search.png" alt="검색"></a>
+        </nav>
+    </header>
+    <main>
+        <div class="consulting_wrap">
+            <div class="consulting_content01">
+                <h2 class="emphasis_txt">가맹점<br>상담신청</h2>
+                <p class="txt">가맹점 관련하여 궁금한 점은 언제든 문의주시기 바랍니다.</p>
+            </div>
+            <form name="consulting_form" id="consulting_form" method="post">
+                <ul class="consulting_list">
+                    <li>
+                        <p>* 이름</p>
+                        <input type="text" required>
+                    </li>
+                    <li>
+                        <p>* 휴대폰번호</p>
+                        <input type="text" required>
+                    </li>
+                    <li>
+                        <p>* 이메일</p>
+                        <div>
+                            <input type="text" required>
+                            <p>@</p>
+                            <select name="email_select" id="email_select">
+                                <option value="google">google.com</option>
+                                <option value="naver">naver.com</option>
+                                <option value="kakao">kakao.com</option>
+                                <option value="hanmail">hanmail.com</option>
+                                <option value="user_insert_text">직접입력</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li>
+                        <p>* 창업희망지역</p>
+                        <input type="text" required>
+                    </li>
+                    <li>
+                        <p>신청계기</p>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="internet" id="internet">
+                                <label for="internet">인터넷검색</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="visit" id="visit">
+                                <label for="visit">매장 방문</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="introduce" id="introduce">
+                                <label for="introduce">지인 소개</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="consulting" id="consulting">
+                                <label for="consulting">컨설팅/부동산</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="etc" id="etc">
+                                <label for="etc">기타</label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>* 제목</p>
+                        <input type="text" required>
+                    </li>
+                    <li>
+                        <p>* 내용</p>
+                        <textarea name="consulting_text" id="consulting_text" cols="30" rows="10"></textarea>
+                    </li>
+                </ul>
+                <button type="submit" class="sub_btn">상담 신청하기</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
