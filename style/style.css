@@ -173,14 +173,18 @@ main .consulting_wrap #consulting_form .consulting_list li > input {
 }
 main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div {
     display: flex;
+    justify-content: space-between;
     width: calc(100% - 124px);
 }
 main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div input,
 main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div p,
 main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div select {
-    width: calc(100% / 3);
+    width: calc(100% / 2 - 20px);
 }
-main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div p {text-align: center;}
+main .consulting_wrap #consulting_form .consulting_list li:nth-child(3) div p {
+    width: 20px;
+    text-align: center;
+}
 main .consulting_wrap #consulting_form .consulting_list li:nth-child(5) ul {
     width: calc(100% - 132px);
     display: flex;
