@@ -34,8 +34,8 @@ header nav {
     background-color: #023586;
     z-index: 900;
 }
-header nav a:first-child {padding-left: 16px;}
-header nav a:last-child {padding-right: 16px;}
+header nav a:first-child {margin-left: 16px;}
+header nav a:last-child {margin-right: 16px;}
 main section {
     display: flex;
     align-items: center;
